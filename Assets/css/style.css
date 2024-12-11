@@ -1,0 +1,61 @@
+header {
+    background-color: #ffFCF2;
+}
+
+body {
+    font-family: "Nova Flat", system-ui;
+    background: #ffFCF2;
+}
+
+#menu {
+    height: 60px;
+    background-color: #664527;
+    display: flex;              
+    justify-content: center;    
+    align-items: center;        
+    flex-wrap: wrap;            
+    text-align: center;         
+}
+
+#menu .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#menu a {
+    color: #ffFCF2;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#menu a:hover {
+    background-color: #8c5c3c;
+    border-radius: 5px;
+}
+
+.card-body {
+    color: #664527;
+    box-shadow: 0px 4px 10px 0px rgba(102, 69, 39, 0.5)
+}
+
+.btn {
+    background-color: #664527;
+    color: #ffFCF2;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ffFCF2;
+    border: 1px solid #664527;
+}
+
+footer {    
+    background-color: #664527;
+}
